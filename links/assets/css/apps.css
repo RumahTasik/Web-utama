@@ -64,7 +64,7 @@ body {
 }
 
 .banner {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/banner.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/banner.jpg");
     height: 150px;
     width: 100%;
     background-size: cover;
@@ -125,3 +125,4 @@ lottie-player {
     margin-top: -50px;
 
 }
+
