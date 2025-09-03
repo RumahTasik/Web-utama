@@ -48,15 +48,35 @@ body {
     font-size: 14px;
 }
 
+.btn-primary img {
+  height: 1.6rem;
+}
+
 .btn-primary {
-    background-color: #1E639D;
-    border: 2px solid #1E639D;
+  background-color: #1e639d;
+  border: 2px solid #1e639d;
 }
 
 .btn-primary:hover {
-    border: 2px solid #1E639D;
-    background-color: #fff;
-    color: #1E639D;
+  border: 2px solid #1e639d;
+  background-color: #fff;
+  color: #1e639d;
+}
+
+.btn-primary1 img {
+  height: 1.6rem;
+}
+
+.btn-primary1 {
+  color: #fff;
+  background-color: #1e639d;
+  border: 2px solid #ffffffff;
+}
+
+.btn-primary1:hover {
+  border: 2px solid #1e639d;
+  background-color: #97979798;
+  color: #1e639d;
 }
 
 .border-rounded {
@@ -125,6 +145,7 @@ lottie-player {
     margin-top: -50px;
 
 }
+
 
 
 
