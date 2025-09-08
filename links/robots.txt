@@ -1,0 +1,10 @@
+# Semua bot diizinkan untuk crawl website
+User-agent: *
+Disallow:
+
+# Letakkan sitemap agar Google mudah menemukan
+Sitemap: https://rumahtasik.vercel.app/sitemap.xml
+
+# Opsional: blokir halaman tertentu
+# Disallow: /admin/
+# Disallow: /private/
