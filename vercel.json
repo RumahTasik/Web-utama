@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [{ "src": "links/index.html", "use": "@vercel/static" }],
+  "routes": [
+    { "src": "/sitemap.xml", "dest": "links/sitemap.xml" },
+    { "src": "/robots.txt", "dest": "links/robots.txt" },
+    { "src": "/(.*)", "dest": "links/$1" }
+  ]
+}
